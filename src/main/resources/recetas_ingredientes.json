@@ -1,0 +1,85 @@
+[
+  {
+    "idReceta": 1,
+    "ingredientes": [
+      { "idIngrediente": 1, "cantidadNecesaria": 250.0 },
+      { "idIngrediente": 2, "cantidadNecesaria": 2.0 },
+      { "idIngrediente": 3, "cantidadNecesaria": 200.0 },
+      { "idIngrediente": 4, "cantidadNecesaria": 50.0 }
+    ]
+  },
+  {
+    "idReceta": 2,
+    "ingredientes": [
+      { "idIngrediente": 2, "cantidadNecesaria": 3.0 },
+      { "idIngrediente": 5, "cantidadNecesaria": 2.0 },
+      { "idIngrediente": 6, "cantidadNecesaria": 100.0 }
+    ]
+  },
+  {
+    "idReceta": 3,
+    "ingredientes": [
+      { "idIngrediente": 8, "cantidadNecesaria": 400.0 },
+      { "idIngrediente": 7, "cantidadNecesaria": 200.0 },
+      { "idIngrediente": 5, "cantidadNecesaria": 2.0 },
+      { "idIngrediente": 11, "cantidadNecesaria": 1.0 }
+    ]
+  },
+  {
+    "idReceta": 4,
+    "ingredientes": [
+      { "idIngrediente": 7, "cantidadNecesaria": 150.0 },
+      { "idIngrediente": 1, "cantidadNecesaria": 500.0 },
+      { "idIngrediente": 4, "cantidadNecesaria": 100.0 }
+    ]
+  },
+  {
+    "idReceta": 5,
+    "ingredientes": [
+      { "idIngrediente": 9, "cantidadNecesaria": 250.0 },
+      { "idIngrediente": 11, "cantidadNecesaria": 1.0 },
+      { "idIngrediente": 12, "cantidadNecesaria": 2.0 },
+      { "idIngrediente": 14, "cantidadNecesaria": 1.0 },
+      { "idIngrediente": 13, "cantidadNecesaria": 15.0 }
+    ]
+  },
+  {
+    "idReceta": 6,
+    "ingredientes": [
+      { "idIngrediente": 10, "cantidadNecesaria": 250.0 },
+      { "idIngrediente": 5, "cantidadNecesaria": 2.0 },
+      { "idIngrediente": 14, "cantidadNecesaria": 2.0 },
+      { "idIngrediente": 17, "cantidadNecesaria": 100.0 },
+      { "idIngrediente": 13, "cantidadNecesaria": 20.0 }
+    ]
+  },
+  {
+    "idReceta": 7,
+    "ingredientes": [
+      { "idIngrediente": 2, "cantidadNecesaria": 3.0 },
+      { "idIngrediente": 17, "cantidadNecesaria": 80.0 },
+      { "idIngrediente": 6, "cantidadNecesaria": 80.0 },
+      { "idIngrediente": 13, "cantidadNecesaria": 10.0 }
+    ]
+  },
+  {
+    "idReceta": 8,
+    "ingredientes": [
+      { "idIngrediente": 1, "cantidadNecesaria": 300.0 },
+      { "idIngrediente": 15, "cantidadNecesaria": 50.0 },
+      { "idIngrediente": 16, "cantidadNecesaria": 1.0 },
+      { "idIngrediente": 4, "cantidadNecesaria": 15.0 }
+    ]
+  },
+  {
+    "idReceta": 9,
+    "ingredientes": [
+      { "idIngrediente": 10, "cantidadNecesaria": 200.0 },
+      { "idIngrediente": 18, "cantidadNecesaria": 300.0 },
+      { "idIngrediente": 5, "cantidadNecesaria": 3.0 },
+      { "idIngrediente": 11, "cantidadNecesaria": 1.0 },
+      { "idIngrediente": 14, "cantidadNecesaria": 1.0 },
+      { "idIngrediente": 13, "cantidadNecesaria": 15.0 }
+    ]
+  }
+]

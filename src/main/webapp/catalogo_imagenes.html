@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo Visual de Alimentos FIT-EAT</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f6f8; padding: 2rem; }
+        h1 { color: #00724e; text-align: center; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #00724e; padding-bottom: 0.5rem; margin-top: 2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+        .card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; padding-bottom: 1rem; }
+        .card img { width: 100%; height: 160px; object-fit: cover; }
+        .card h3 { font-size: 1rem; margin: 0.75rem 0 0.25rem 0; color: #2c3e50; }
+        .card p { font-size: 0.85rem; color: #7f8c8d; margin: 0; }
+    </style>
+</head>
+<body>
+    <h1>Catálogo Visual de Alimentos y Recetas - FIT-EAT</h1>
+    
+    <h2>18 Ingredientes</h2>
+    <div class="grid" id="gridIngredientes">
+        <div class="card"><img src="images/leche.jpg" alt="Leche"><h3>1. Leche entera</h3><p>images/leche.jpg</p></div>
+        <div class="card"><img src="images/huevos.jpg" alt="Huevos"><h3>2. Huevos</h3><p>images/huevos.jpg</p></div>
+        <div class="card"><img src="images/harina.jpg" alt="Harina"><h3>3. Harina de trigo</h3><p>images/harina.jpg</p></div>
+        <div class="card"><img src="images/azucar.jpg?v=2" alt="Azúcar"><h3>4. Azúcar</h3><p>images/azucar.jpg</p></div>
+        <div class="card"><img src="images/tomates.jpg?v=2" alt="Tomates"><h3>5. Tomates</h3><p>images/tomates.jpg</p></div>
+        <div class="card"><img src="images/queso.jpg" alt="Queso"><h3>6. Queso mozzarella</h3><p>images/queso.jpg</p></div>
+        <div class="card"><img src="images/arroz.jpg" alt="Arroz"><h3>7. Arroz blanco</h3><p>images/arroz.jpg</p></div>
+        <div class="card"><img src="images/pollo.jpg" alt="Pollo"><h3>8. Pechuga de pollo</h3><p>images/pollo.jpg</p></div>
+        <div class="card"><img src="images/lentejas.jpg" alt="Lentejas"><h3>9. Lentejas</h3><p>images/lentejas.jpg</p></div>
+        <div class="card"><img src="images/pasta.jpg" alt="Pasta"><h3>10. Pasta espagueti</h3><p>images/pasta.jpg</p></div>
+        <div class="card"><img src="images/cebolla.jpg" alt="Cebolla"><h3>11. Cebolla blanca</h3><p>images/cebolla.jpg</p></div>
+        <div class="card"><img src="images/zanahorias.jpg" alt="Zanahorias"><h3>12. Zanahorias</h3><p>images/zanahorias.jpg</p></div>
+        <div class="card"><img src="images/aceite.jpg" alt="Aceite"><h3>13. Aceite de oliva</h3><p>images/aceite.jpg</p></div>
+        <div class="card"><img src="images/ajo.jpg" alt="Ajo"><h3>14. Ajo</h3><p>images/ajo.jpg</p></div>
+        <div class="card"><img src="images/avena.jpg" alt="Avena"><h3>15. Avena en hojuelas</h3><p>images/avena.jpg</p></div>
+        <div class="card"><img src="images/platano.jpg" alt="Plátano"><h3>16. Plátano</h3><p>images/platano.jpg</p></div>
+        <div class="card"><img src="images/espinacas.jpg" alt="Espinacas"><h3>17. Espinacas frescas</h3><p>images/espinacas.jpg</p></div>
+        <div class="card"><img src="images/carne.jpg" alt="Carne"><h3>18. Carne molida de res</h3><p>images/carne.jpg</p></div>
+    </div>
+
+    <h2>9 Recetas</h2>
+    <div class="grid" id="gridRecetas">
+        <div class="card"><img src="images/hotcakes.jpg" alt="Hot Cakes"><h3>1. Hot Cakes Caseros</h3><p>images/hotcakes.jpg</p></div>
+        <div class="card"><img src="images/tortilla_tomate.jpg" alt="Tortilla"><h3>2. Tortilla de Tomate y Queso</h3><p>images/tortilla_tomate.jpg</p></div>
+        <div class="card"><img src="images/pollo_arroz.jpg" alt="Pollo con Arroz"><h3>3. Pollo con Arroz y Verduras</h3><p>images/pollo_arroz.jpg</p></div>
+        <div class="card"><img src="images/arroz_con_leche.jpg?v=2" alt="Arroz con Leche"><h3>4. Arroz con Leche Dulce</h3><p>images/arroz_con_leche.jpg</p></div>
+        <div class="card"><img src="images/sopa_lentejas.jpg" alt="Sopa Lentejas"><h3>5. Sopa Casera de Lentejas</h3><p>images/sopa_lentejas.jpg</p></div>
+        <div class="card"><img src="images/pasta_verduras.jpg" alt="Pasta Verduras"><h3>6. Pasta con Verduras Salteadas</h3><p>images/pasta_verduras.jpg</p></div>
+        <div class="card"><img src="images/omelette_espinaca.jpg" alt="Omelette Espinaca"><h3>7. Omelette de Espinaca y Queso</h3><p>images/omelette_espinaca.jpg</p></div>
+        <div class="card"><img src="images/batido_avena.jpg" alt="Batido Avena"><h3>8. Batido de Avena y Plátano</h3><p>images/batido_avena.jpg</p></div>
+        <div class="card"><img src="images/bolonesa.jpg" alt="Boloñesa"><h3>9. Pasta Boloñesa Casera</h3><p>images/bolonesa.jpg</p></div>
+    </div>
+</body>
+</html>

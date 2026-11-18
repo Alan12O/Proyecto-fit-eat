@@ -3,15 +3,11 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
-
-### IntelliJ IDEA ###
 .idea/
 *.iws
 *.iml
 *.ipr
 out/
-
-### Eclipse ###
 .apt_generated
 .classpath
 .factorypath
@@ -19,8 +15,6 @@ out/
 .settings
 .springBeans
 .sts4-cache
-
-### NetBeans ###
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -29,9 +23,5 @@ out/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-
-### VS Code ###
 .vscode/
-
-### Mac OS ###
 .DS_Store
